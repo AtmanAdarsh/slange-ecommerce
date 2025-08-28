@@ -7,9 +7,7 @@ const withPWA = require('next-pwa')({
 });
 
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+  // Remove experimental.appDir - it's default in Next.js 14
   images: {
     domains: [
       'localhost',
@@ -54,4 +52,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withPWA(nextConfig); 
+module.exports = withPWA(nextConfig);
