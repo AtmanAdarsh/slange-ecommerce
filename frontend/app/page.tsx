@@ -2,13 +2,14 @@
 
 import { motion } from 'framer-motion';
 import { Suspense } from 'react';
-import Hero3D from '@/components/Hero3D';
-import FeaturedProducts from '@/components/FeaturedProducts';
-import CategoryShowcase from '@/components/CategoryShowcase';
-import NewsletterSignup from '@/components/NewsletterSignup';
-import InstagramFeed from '@/components/InstagramFeed';
+import Hero3D from '../components/Hero3D';
+import FeaturedProducts from '../components/FeaturedProducts';
+import CategoryShowcase from '../components/CategoryShowcase';
+import NewsletterSignup from '../components/NewsletterSignup';
+import InstagramFeed from '../components/InstagramFeed';
 import { ShoppingBag, Heart, Star, Truck, Shield, RefreshCw } from 'lucide-react';
 
+// ... rest of the code remains same
 export default function HomePage() {
   const features = [
     {
